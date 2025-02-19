@@ -6,9 +6,7 @@ indexName = "all_products"
 
 try:
     es = Elasticsearch(
-        'https://localhost:9200',
-        verify_certs=False,
-        basic_auth=("elastic","wHJp0zW7Qo9R-I6Uaeg6")
+        'https://localhost:9200'
         )
     
 except ConnectionError as e:
